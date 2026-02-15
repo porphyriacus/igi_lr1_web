@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Анна Смирнова | Фотограф</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600&display=swap" rel="stylesheet">
+</head>
+<body>
+    <!-- Шапка с навигацией -->
+    <header class="header">
+        <div class="container header-container">
+            <div class="logo">Анна Смирнова</div>
+            <nav class="nav">
+                <a href="#about" class="nav-link">Обо мне</a>
+                <a href="#portfolio" class="nav-link">Портфолио</a>
+                <a href="#contact" class="nav-link">Контакты</a>
+            </nav>
+        </div>
+    </header>
+
+    <!-- Главный экран -->
+    <section class="hero">
+        <div class="container hero-container">
+            <div class="hero-content">
+                <h1 class="hero-title">Анна Смирнова</h1>
+                <p class="hero-subtitle">Фотограф, который видит вашу историю</p>
+                <a href="#contact" class="btn btn-primary">Заказать съемку</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Обо мне -->
+    <section id="about" class="about">
+        <div class="container">
+            <h2 class="section-title">Обо мне</h2>
+            <div class="about-content">
+                <div class="about-text">
+                    <p>Привет! Я Анна, фотограф из Москвы. Моя страсть — ловить искренние эмоции и превращать их в фотографии, которые согревают сердце.</p>
+                    <p>За моими плечами 7 лет работы, более 50 свадеб и сотни семейных съемок. Я работаю в жанрах: портрет, репортаж, love story и предметная съемка.</p>
+                    <p>Для меня важно создать доверительную атмосферу, чтобы вы чувствовали себя свободно перед камерой. Я не просто делаю кадры, я рассказываю вашу уникальную историю.</p>
+                </div>
+                <div class="about-stats">
+                    <div class="stat-item">
+                        <span class="stat-number">7+</span>
+                        <span class="stat-text">лет опыта</span>
+                    </div>
+                    <div class="stat-item">
+                        <span class="stat-number">500+</span>
+                        <span class="stat-text">довольных клиентов</span>
+                    </div>
+                    <div class="stat-item">
+                        <span class="stat-number">15</span>
+                        <span class="stat-text">стран</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Портфолио (сетка) -->
+    <section id="portfolio" class="portfolio">
+        <div class="container">
+            <h2 class="section-title">Портфолио</h2>
+            <div class="portfolio-grid">
+                <div class="portfolio-item">
+                    <img src="https://via.placeholder.com/600x400/cccccc/969696?text=Свадьба" alt="Свадебная съемка" class="portfolio-img">
+                    <div class="portfolio-overlay">
+                        <span>Свадебная съемка</span>
+                    </div>
+                </div>
+                <div class="portfolio-item">
+                    <img src="https://via.placeholder.com/600x400/cccccc/969696?text=Портрет" alt="Портрет" class="portfolio-img">
+                    <div class="portfolio-overlay">
+                        <span>Портрет</span>
+                    </div>
+                </div>
+                <div class="portfolio-item">
+                    <img src="https://via.placeholder.com/600x400/cccccc/969696?text=Семья" alt="Семейная съемка" class="portfolio-img">
+                    <div class="portfolio-overlay">
+                        <span>Семейная съемка</span>
+                    </div>
+                </div>
+                <div class="portfolio-item">
+                    <img src="https://via.placeholder.com/600x400/cccccc/969696?text=Репортаж" alt="Репортаж" class="portfolio-img">
+                    <div class="portfolio-overlay">
+                        <span>Репортаж</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Контакты -->
+    <section id="contact" class="contact">
+        <div class="container">
+            <h2 class="section-title">Контакты</h2>
+            <div class="contact-content">
+                <div class="contact-info">
+                    <p>Давайте создавать красивые истории вместе!</p>
+                    <ul class="contact-list">
+                        <li class="contact-item">
+                            <span class="contact-label">Телефон:</span>
+                            <a href="tel:+79991234567">+7 (999) 123-45-67</a>
+                        </li>
+                        <li class="contact-item">
+                            <span class="contact-label">Email:</span>
+                            <a href="mailto:hello@annasmirnova.ru">hello@annasmirnova.ru</a>
+                        </li>
+                        <li class="contact-item">
+                            <span class="contact-label">Instagram:</span>
+                            <a href="#">@annasmirnova.photo</a>
+                        </li>
+                        <li class="contact-item">
+                            <span class="contact-label">Telegram:</span>
+                            <a href="#">@annasmirnova</a>
+                        </li>
+                    </ul>
+                </div>
+                <div class="contact-note">
+                    <p>Сейчас я открыта к сотрудничеству и новым проектам. Буду рада услышать ваши идеи!</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Футер -->
+    <footer class="footer">
+        <div class="container footer-container">
+            <p>© 2025 Анна Смирнова. Все права защищены.</p>
+        </div>
+    </footer>
+</body>
+</html>
